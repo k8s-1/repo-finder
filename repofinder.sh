@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# depends on: fd, fzf
+
 ROOT_DIR="$HOME"
 
 # match all .git dirs without a . in parent path e.g. .local/../../.git is ignored
